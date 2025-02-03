@@ -23,6 +23,10 @@ function updateBookmarkCount() {
         }
 
         // Display logic: Either the exact number (314) or approximation (62.8k) if count > 9999
+
+        // NOTE: While most Chromium-based browsers allow for "unlimited" bookmarks, the vast majority of
+        // people won't break past 10,000. Syncing bookmarks stops working anyways at around 50k - 100k
+        // depending on the browser's sync engine.
         let displayCount;
         if (count > 9999) {
             let num_1000s = Math.floor(n / 1000);
@@ -35,10 +39,6 @@ function updateBookmarkCount() {
         chrome.action.setBadgeText({ text: displayCount });
     });
 }
-
-
-// Setting to loading text until the recount is finished.
-chrome.action.setBadgeText({ text: '.' });
 
 // Trigger a manual recount when booting up the browser.
 updateBookmarkCount();
