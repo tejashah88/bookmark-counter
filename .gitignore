@@ -1,0 +1,2 @@
+# Exclude auto-generated ZIP exports for publising to Extension store
+*.zip

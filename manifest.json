@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Bookmark Counter",
-  "description": "Keeps track of the number of bookmarks in real-time.",
+  "description": "Dynamically keeps track of the number of bookmarks.",
   "version": "1.0.0",
   "icons": {
     "48": "icons/icon-48.png",

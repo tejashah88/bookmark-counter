@@ -1,12 +1,15 @@
 # bookmark-counter
-A Chrome extension that keeps track of number of bookmarks in real-time. Shows the number of bookmarks you have as a badge number and updates that count when you add, import or remove bookmarks.
+
+![Main screenshot of extension](screenshots/main-screenshot-with-arrow.png)
+
+A Chrome extension that dynamically keeps track of number of bookmarks. Shows the number of bookmarks you have as a badge number and updates that count when you add, import or remove bookmarks.
 
 Icon credits go to [GraphicsFamily](https://graphicsfamily.com/).
 
 ## Setup
 
 ### System Requirements
-* Chromeium-based browser (Edge, Chrome, Brave, etc.)
+* Chromium-based browser (Edge, Chrome, Brave, etc.)
 
 ### Chrome Extension
 
