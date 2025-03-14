@@ -6,7 +6,11 @@ A Chrome extension that dynamically keeps track of number of bookmarks. Shows th
 
 Icon credits go to [GraphicsFamily](https://graphicsfamily.com/).
 
-## Setup
+## Install
+
+Go to the following link to install: https://chromewebstore.google.com/detail/bookmark-counter/hfkdkenonbflpejabhdililhnnnbngbl
+
+## Development Setup
 
 ### System Requirements
 * Chromium-based browser (Edge, Chrome, Brave, etc.)
