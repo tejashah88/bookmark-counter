@@ -29,8 +29,8 @@ function updateBookmarkCount() {
         // at around 50k - 100k depending on the browser's sync engine.
         let displayCount;
         if (count > 9999) {
-            let num_1000s = Math.floor(n / 1000);
-            let num_100s = Math.floor((n % 1000) / 100);
+            let num_1000s = Math.floor(count / 1000);
+            let num_100s = Math.floor((count % 1000) / 100);
             displayCount = `${num_1000s}.${num_100s}k`;
         } else {
             displayCount = `${count}`;
