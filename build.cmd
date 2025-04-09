@@ -1,3 +1,5 @@
+if exist export.zip del export.zip
+
 tar -a -c -f export.zip ^
     manifest.json ^
     background.js ^
